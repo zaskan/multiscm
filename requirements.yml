@@ -1,5 +1,2 @@
-[galaxy]
-server_list = apache
-
-[galaxy_server.apache]
-url=https://github.com/zaskan/ansible-role-apache
+- name: Apache
+  src: https://github.com/zaskan/ansible-role-apache
